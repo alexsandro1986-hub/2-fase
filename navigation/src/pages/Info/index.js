@@ -4,16 +4,16 @@ import { View, Text, StyleSheet, Button } from "react-native";
 
 
 
-export default function Home(){
+export default function Info(){
 const navigation = useNavigation();
 
     return(
         <View style={styles.container}>
-            <Text>Tela home</Text>
-            <Button  title="ir Sobre" onPress={()=> navigation.navigate('Sobre')}/>
-            <Button  title="ir Info" onPress={()=> navigation.navigate('Info')}/>
+            <Text>Tela informações</Text>
+            <Button  title="ir Home" onPress={()=> navigation.navigate('Home')}/>
+            <Button  title="voltar Sobre" onPress={()=> navigation.navigate('Sobre')}/>
 
-        </View>
+       </View>
     )
 }
 

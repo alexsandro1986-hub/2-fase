@@ -9,6 +9,8 @@ export default function Sobre(){
         <View style={styles.container}>
             <Text>Tela Sobre</Text>
             <Button  title="voltar Home" onPress={()=> navigation.navigate('Home')}/>
+            <Button  title="ir Info" onPress={()=> navigation.navigate('Info')}/>
+       
         </View>
     )
 }
